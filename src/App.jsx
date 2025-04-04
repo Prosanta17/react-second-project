@@ -2,6 +2,7 @@ import React, { useState, createContext } from "react";
 import "./App.css";
 import ToggleShowHide from "./ToggleShowHide";
 import CounterNew from "./CounterNew";
+import TypesComp from "./TypesComp";
 // import Fetch from "./Fetch";
 // import Todolist from "./Todolist";
 // import TodolistNew from "./TodolistNew";
@@ -52,7 +53,8 @@ function App() {
       {/* <Form /> */}
       {/* <FormNew /> */}
       {/* <ToggleShowHide /> */}
-      <CounterNew />
+      {/* <CounterNew /> */}
+      <TypesComp />
     </>
   );
 }
